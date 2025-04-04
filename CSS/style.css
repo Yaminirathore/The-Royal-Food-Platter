@@ -297,6 +297,8 @@ section.about{
 
 .foodArea{
     display: flex;
+    flex-wrap: wrap; /* Prevents extra empty spaces */
+    justify-content: center;
     
 }
 
