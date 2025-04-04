@@ -296,9 +296,12 @@ section.about{
 }
 
 .foodArea{
+    .foodArea {
     display: flex;
-    flex-wrap: wrap; /* Prevents extra empty spaces */
-    justify-content: center;
+    flex-wrap: wrap; /* Allow multiple rows */
+    justify-content: space-between; /* Distribute items evenly */
+    gap: 10px; /* Add spacing */
+}
     
 }
 
@@ -314,6 +317,40 @@ section.about{
     
     
 }
+
+
+
+
+
+.foodsControl {
+    width: 23%; /* 4 boxes in a row */
+    min-width: 200px; /* Prevent shrinking too much */
+}
+
+.foodBox {
+    width: 100%; /* Take full width of parent */
+}
+.foodBox {
+    padding: 2%;
+    margin: 1%;
+}
+@media (max-width: 768px) {
+    .foodsControl {
+        width: 48%; /* 2 items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .foodsControl {
+        width: 100%; /* 1 item per row */
+    }
+}
+
+
+
+
+
+
 
 .foodBox img{
     max-width: 100%;
