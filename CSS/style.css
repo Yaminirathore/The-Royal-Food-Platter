@@ -334,17 +334,26 @@ section.about{
     padding: 2%;
     margin: 1%;
 }
+.foodArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Space between boxes */
+}
+/* Tablet View: 2 items per row */
 @media (max-width: 768px) {
     .foodsControl {
-        width: 48%; /* 2 items per row */
+        width: 48%;
     }
 }
 
+/* Mobile View: 1 item per row */
 @media (max-width: 480px) {
     .foodsControl {
-        width: 100%; /* 1 item per row */
+        width: 100%;
     }
 }
+
 
 
 
