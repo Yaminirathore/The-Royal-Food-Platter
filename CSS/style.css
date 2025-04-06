@@ -21,18 +21,19 @@
 
 
 
-/* Default for desktop */
+/* Default styles for desktop */
 .container {
   font-size: 20px;
 }
 
-/* Mobile ke liye */
+/* Styles for mobile screens (768px or smaller) */
 @media (max-width: 768px) {
   .container {
     font-size: 16px;
     padding: 10px;
   }
 }
+
 
 
 
