@@ -19,6 +19,27 @@
 }
 
 
+
+
+/* Default for desktop */
+.container {
+  font-size: 20px;
+}
+
+/* Mobile ke liye */
+@media (max-width: 768px) {
+  .container {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
 img-responsive{
     width: 100%;
 }
